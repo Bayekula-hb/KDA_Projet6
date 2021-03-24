@@ -1,0 +1,93 @@
+html, body{
+    margin:0;
+    padding:0;
+}
+.DivHead{
+    background-color: #3080ED;
+    width:100%;
+    height: 5%;
+    border: 3px solid blue;
+}
+.DivMain{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Div1, .Div2{
+    border: 2px solid #CDDAEB;
+    margin: 0%;padding: 0%;
+}
+.Div1{
+    width: 45%;
+    margin-right: 0.4%;
+}
+.Div2{
+    width: 55%;
+}
+.ParaHeader{
+    padding-left: 2%;
+}
+.ParaHeader, .Para{
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.Para{
+    background-color: #3080ED;
+    margin: 0%;padding: 0%;
+    text-align: center;
+}
+form{
+    width: 95%;
+    margin: auto;
+}
+.Input{
+    appearance: none !important;
+    border: 2px solid rgb(10, 10, 10) !important;
+    width: 99%;
+}
+.Label{
+    appearance: none !important;
+    color: blue;
+    font-size: 1.2rem;
+}
+.Select{
+    
+    display: block;
+    size: 2;
+    border: 3x solid rgb(73, 73, 73) !important;
+    border-radius: 4px;
+    color: blue;
+}
+.InputFile{
+    display: block;
+    padding: 4%;
+    margin-top: 2%;
+}
+textarea,select, .Input{
+    border: 2px solid #C0D9FA !important;
+    border-radius: 6px;
+}
+.DivBtn{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Btn_Creer, button{
+    padding: 3%;
+    margin-top: 5%;
+    width: 48%;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: 2px solid;
+}
+.Btn_Creer{
+    background-color:#3080ED ;
+    color: white;
+}
+button{
+    background-color: #EB5656;
+    color: white;
+}

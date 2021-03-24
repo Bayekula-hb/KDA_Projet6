@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Css/Style.css">
+        <title>Dom Js</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row s12 DivHead">
+                <p class="ParaHeader">
+                    Répertoire de contact
+                </p>
+            </div>
+            <div class="row DivMain">
+                <div class="Div1">
+                    <p class="Para">
+                        Formulaire de contact
+                    </p>
+                    <form action="">
+                        <div class="row">
+                            <label for="Prenom" class="Label">Prénom</label>
+                            <input type="text" id="Prenom" class="Input">
+                            
+                            <label for="Nom" class="Label">Nom</label>
+                            <input type="text" id="Nom" class="Input">
+
+                            <label for="Groupe" class="Label">Groupe</label>
+                            <select name="Groupe" id="Groupe" class="Select">
+                                <option value="" disabled selected></option>
+                                <option value="1">Option 1</option>
+                                <option value="2">Option 2</option>
+                                <option value="3">Option 3</option>
+                                <option value="1">Option 1</option>
+                                <option value="2">Option 2</option>
+                                <option value="3">Option 3</option>
+                            </select>
+                            
+                            <label for="Bio" class="Label">Bio</label>
+                            <textarea name="Bio" id="" cols="30" rows="10"></textarea>
+
+                            <input type="file" name="Ficher" id="Ficher" class="InputFile">
+
+                            <div class="DivBtn">
+                                <input type="submit" value="Créer" class="Btn_Creer">
+                                <button> Réinit.</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="Div2">
+                    <p class="Para s12">
+                        Liste de Contact
+                    </p>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="JS/MyScript.js"></script>
+    </body>
+</html>
