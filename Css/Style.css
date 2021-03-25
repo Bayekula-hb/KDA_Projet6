@@ -1,6 +1,7 @@
-html, body{
+*{
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 .DivHead{
     background-color: #3080ED;
@@ -13,7 +14,7 @@ html, body{
     flex-direction: row;
     justify-content: space-between;
 }
-.Div1, .Div2{
+.Div1, #Div2{
     border: 2px solid #CDDAEB;
     margin: 0%;padding: 0%;
 }
@@ -21,7 +22,7 @@ html, body{
     width: 45%;
     margin-right: 0.4%;
 }
-.Div2{
+#Div2{
     width: 55%;
 }
 .ParaHeader{
@@ -68,16 +69,18 @@ form{
 textarea,select, .Input{
     border: 2px solid #C0D9FA !important;
     border-radius: 6px;
+    outline: none;
 }
 .DivBtn{
-    width: 100%;
+    width: 95%;
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.Btn_Creer, button{
+.Btn_Creer, .Reinit{
     padding: 3%;
-    margin-top: 5%;
+    margin-bottom: 5%;
     width: 48%;
     font-size: 1.2rem;
     font-weight: 700;
@@ -87,7 +90,7 @@ textarea,select, .Input{
     background-color:#3080ED ;
     color: white;
 }
-button{
+.Reinit{
     background-color: #EB5656;
     color: white;
 }
