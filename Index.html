@@ -32,13 +32,11 @@
 
                             <label for="Groupe" class="Label">Groupe</label>
                             <select name="Groupe" id="Groupe" class="Select">
-                                <option value="" disabled selected></option>
-                                <option value="1">Option 1</option>
-                                <option value="2">Option 2</option>
-                                <option value="3">Option 3</option>
-                                <option value="1">Option 1</option>
-                                <option value="2">Option 2</option>
-                                <option value="3">Option 3</option>
+                                <option value="0" disabled hidden selected></option>
+                                <option value="Groupe 1" >Groupe 1</option>
+                                <option value="Groupe 2">Groupe 2</option>
+                                <option value="Groupe 3">Groupe 3</option>
+                                <option value="Groupe 4">Groupe 4</option>
                             </select>
                             
                             <label for="Bio" class="Label">Bio</label>
@@ -51,17 +49,21 @@
                         <button type="submit" class="Btn_Creer">
                             Créer
                         </button>
-                        <button class="Reinit"> Réinit.</button>
+                        <button class="Btn_Reinit"> Réinit.</button>
                     </div>
                 </div>
                 <div id="Div2">
                     <p class="Para s12">
                         Liste de Contact
                     </p>
+                    <div class="Div0">
+                        
+                    </div>
                 </div>
             </div>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        <script src="JS/MyScript.js"></script>
+        <!-- <script src="JS/MyScript.js"></script> -->
+        <script src="JS/Dom.js"></script>
     </body>
 </html>
